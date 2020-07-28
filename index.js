@@ -35,14 +35,7 @@ Jimp.read('ascii-pineapple.jpg')
             asciiArr.push(asciiString[b])
         }
         
-        // for(let ypixel = 0; ypixel <= pineHeight; ypixel++){
-        //     let xstring = ''
-        //     for(let xpixel = 0; xpixel <= pineWidth; xpixel++){
-        //         xstring += (asciiArr[xpixel + 10 * ypixel])
-        //             //+ asciiArr[xpixel + 10 * ypixel] + asciiArr[xpixel + 10 * ypixel]) 
-        //     }
-        //     console.log(xstring)
-        // }
+
         let asciiImg = ''
         for(let j = 0; j < asciiArr.length; j++){
             asciiImg += (asciiArr[j] + asciiArr[j] +asciiArr[j])
