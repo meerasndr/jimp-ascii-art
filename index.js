@@ -3,7 +3,7 @@ var Jimp = require('jimp')
 const pixelArr = []
 const brightnessArr = []
 const asciiArr = []
-Jimp.read('ascii-pineapple.jpg')
+Jimp.read('ascii-pineapple.jpg') // pick any of the images in the same folder
     .then(pine => {
         pine.resize(80, 60 )
         console.log("Successfully loaded image!")
